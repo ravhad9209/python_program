@@ -37,3 +37,27 @@ print("Number of Character:",len(Given_String))
 #upper() and lower()
 print("UPPER:",Given_String.upper())
 print("lower:",Given_String.lower())
+
+#Strip
+
+str_1 = "     Welcome To Disha    "
+
+print("After removing space(Strip):", str_1.strip())
+
+# Replasing
+Str_2 = "Welcome to icon"
+
+print("After Replasing 'icon' with 'Tpoint':",Str_2.replace("icon","Tpoint"))
+
+#String Concatenation
+x = "python"
+y = "programming"
+z = "language"
+
+p = x +" " + y +" "+ z
+
+print("Concatenation:", p)
+
+#String Repetition
+
+print("Repetition String:", x*" "*5)
