@@ -60,4 +60,16 @@ print("Concatenation:", p)
 
 #String Repetition
 
-print("Repetition String:", x*" "*5)
+print("Repetition String:", x*5)
+
+#F-String
+Name = "String"
+Language = "Python"
+print(f'{Name} in {Language} is a sequence of characters.')
+
+#String Membership Test
+Given_String_1 = "Welcome"
+
+print(f"'W' is exist in '{Given_String_1}'?", 'W'in Given_String_1)
+
+print(f"'v' is not exist in '{Given_String_1}'? :", 'v'not in Given_String_1)
