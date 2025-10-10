@@ -89,16 +89,14 @@ print("Is titlecase:",g)
 print("-" * 30)  
 
 # #Alignment and Formatting
-str_5 = "Avhad Roshan"
+str_5 = "Avhad anvlljj"
 
-# print("ljust:",str_5.rjust(10,"+"))
-# print(str_5.ljust(10, '-'))  # Left-align with '-' padding  
-# print(str_5.rjust(10, '-'))  # Right-align with '-' padding  
-# print(str_5.center(10, '-'))
+print("rjust:",str_5.rjust(10,"+"))
+print("ljust:",str_5.ljust(10, '-'))      
+print("center:",str_5.center(10, '-'))
 
-text = "Roshan"  
-print(text.ljust(10, '-'))  # Left-align with '-' padding  
-print(text.rjust(10, '-'))  # Right-align with '-' padding  
-print(text.center(10, '-'))
+
+
+
 
 
