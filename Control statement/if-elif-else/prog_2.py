@@ -17,6 +17,5 @@ elif marks >= 35:
 else:
     print("fail")
 
-print("-" *30)
 
 
