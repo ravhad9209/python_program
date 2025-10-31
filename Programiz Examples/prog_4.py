@@ -1,11 +1,9 @@
 #Calculate the Area of a Triangle
 
-a = 4
-b = 7
-c = 3
+base = 10
+height = 7
 
-s = (a + b + c)/2
+area = (1/2)*base*height
 
-area = (s*(s*a)*(s*b)*(s*c)) ** 0.5
 
 print ("Area of trangle",area)
