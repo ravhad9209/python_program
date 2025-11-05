@@ -50,3 +50,8 @@ new_NameTuple = ("magic",)
 NameTuple += new_NameTuple
 
 print("Adding a NameTuple to a new_NameTuple:",NameTuple)
+
+# Unpacking Tuples
+(varOne,varTwo,varThree,varFour,varFive,varSix,varSeven,varEight) = NameTuple
+
+print(varOne)
