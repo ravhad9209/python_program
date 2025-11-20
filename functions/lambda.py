@@ -23,7 +23,19 @@
 # print(n(2))
 # print(n(0))
 
-factorial = lambda n: 1 if n==0 else n * factorial(n-1)
+# factorial = lambda n: 1 if n==0 else n * factorial(n-1)
 
-num = int(input("Enter number:"))
-print(factorial(num))   
+# num = int(input("Enter number:"))
+# print(factorial(num))   
+
+
+# #calculate multiple statement
+
+# v = lambda x,y:(x+y,x-y,x*y,x/y)
+# print(v(5,3))
+
+#using lambda with filter
+
+num = [2,7,4,3,8]
+is_new = filter(lambda x : x % 2 == 0 ,num)
+print(list(is_new))

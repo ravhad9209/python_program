@@ -16,5 +16,5 @@ print("2.subtract")
 print("3.multiply")
 print("4.divide")
 
-while True:
+# while True:
     Choice = input("Enter choice (1/2/3/4)")
