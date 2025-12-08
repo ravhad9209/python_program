@@ -1,1 +1,1 @@
-a1.display(101, "pune") 
+a.display()
